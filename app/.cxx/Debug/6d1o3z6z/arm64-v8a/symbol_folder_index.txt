@@ -1,0 +1,1 @@
+/Users/rania/lab22_dev/app/build/intermediates/cxx/Debug/6d1o3z6z/obj/arm64-v8a

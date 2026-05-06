@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center_horizontal">
+
+        <!-- Titre -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LAB 23 - JNI Anti-Debug"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#37474F"
+            android:gravity="center"
+            android:paddingBottom="20dp" />
+
+        <!-- Carte Statut Sécurité -->
+        <TextView
+            android:id="@+id/security_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vérification en cours..."
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="20dp"
+            android:layout_marginBottom="16dp"
+            android:background="#E3F2FD"
+            android:minHeight="80dp" />
+
+        <!-- Carte Message Natif -->
+        <TextView
+            android:id="@+id/native_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chargement..."
+            android:textSize="15sp"
+            android:gravity="center"
+            android:padding="15dp"
+            android:layout_marginBottom="12dp"
+            android:background="#FFFFFF"
+            android:elevation="2dp"
+            android:minHeight="70dp" />
+
+        <!-- Carte Résultat Factoriel -->
+        <TextView
+            android:id="@+id/factorial_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calcul en attente..."
+            android:textSize="15sp"
+            android:gravity="center"
+            android:padding="15dp"
+            android:background="#FFFFFF"
+            android:elevation="2dp"
+            android:minHeight="60dp" />
+
+        <!-- Informations techniques -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:paddingTop="25dp"
+            android:textColor="#9E9E9E" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔒 Protection native active"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:textColor="#757575" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✓ Contrôle ptrace\n✓ Analyse /proc/self/maps"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:textColor="#9E9E9E" />
+
+    </LinearLayout>
+</ScrollView>

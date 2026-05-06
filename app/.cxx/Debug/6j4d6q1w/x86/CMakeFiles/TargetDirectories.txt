@@ -1,0 +1,3 @@
+/Users/rania/lab22_dev/app/.cxx/Debug/6j4d6q1w/x86/CMakeFiles/lab22_dev.dir
+/Users/rania/lab22_dev/app/.cxx/Debug/6j4d6q1w/x86/CMakeFiles/edit_cache.dir
+/Users/rania/lab22_dev/app/.cxx/Debug/6j4d6q1w/x86/CMakeFiles/rebuild_cache.dir

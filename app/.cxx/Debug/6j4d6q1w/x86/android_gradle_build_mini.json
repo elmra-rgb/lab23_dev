@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "/Users/rania/lab22_dev/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/rania/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/rania/lab22_dev/app/.cxx/Debug/6j4d6q1w/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/rania/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/rania/lab22_dev/app/.cxx/Debug/6j4d6q1w/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "lab22_dev::@6890427a1f51a3e7e1df": {
+      "artifactName": "lab22_dev",
+      "abi": "x86",
+      "output": "/Users/rania/lab22_dev/app/build/intermediates/cxx/Debug/6j4d6q1w/obj/x86/liblab22_dev.so",
+      "runtimeFiles": []
+    }
+  }
+}

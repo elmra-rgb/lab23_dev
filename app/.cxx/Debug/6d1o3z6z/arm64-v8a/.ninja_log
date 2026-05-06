@@ -1,0 +1,5 @@
+# ninja log v5
+1218	1408	1778081075167492241	/Users/rania/lab22_dev/app/build/intermediates/cxx/Debug/6d1o3z6z/obj/arm64-v8a/libcompute-lib.so	fdf23540790f8401
+0	1215	1778081074973443854	CMakeFiles/compute-lib.dir/native-lib.cpp.o	6ec9375b612c6ad0
+0	662	1778083507695909253	CMakeFiles/native-lib.dir/native-lib.cpp.o	e10f4de3bf57dd8a
+663	854	1778083507891104942	/Users/rania/lab22_dev/app/build/intermediates/cxx/Debug/6d1o3z6z/obj/arm64-v8a/libnative-lib.so	c4b85c4c4e9d184a
